@@ -1,0 +1,1 @@
+import{S as a}from"./index-CYXlB6di.js";function n(e,r){if(e.response){const o=e.response.data,s=o?.message||o?.error||"Ocorreu um erro ao processar sua solicitação";return a(s),r}return e.request?(a("Servidor indisponível. Tente novamente mais tarde"),r):(a(`Erro inesperado: ${e}`),r)}export{n as h};
